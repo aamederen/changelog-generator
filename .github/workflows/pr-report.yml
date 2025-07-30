@@ -23,7 +23,7 @@ on:
 
 jobs:
   generate-report:
-    runs-on: buildjet-2vcpu-ubuntu-2204
+    runs-on: namespace-profile-default
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
