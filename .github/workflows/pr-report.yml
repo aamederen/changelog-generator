@@ -23,7 +23,7 @@ on:
 
 jobs:
   generate-report:
-    runs-on: namespace-profile-default
+    runs-on: ubicloud-premium-4
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
